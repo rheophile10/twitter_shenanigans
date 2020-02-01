@@ -4,7 +4,6 @@ import textstat
 
 
 parent_path = os.path.dirname(os.getcwd())
-parent_path = os.path.dirname(parent_path)
 token_dir = parent_path+'\\twitter.txt'
 
 with open(token_dir, 'r') as f:
